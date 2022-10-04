@@ -1,13 +1,19 @@
-import { Children } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import styled from "styled-components";
 
-export default function Layout(children) {
+export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <StyledMain>{children}</StyledMain>
       <Footer />
     </>
   );
 }
+
+const StyledMain = styled.main`
+  margin: 0;
+  padding: 1rem;
+  min-height: calc(100vh - 8rem);
+`;

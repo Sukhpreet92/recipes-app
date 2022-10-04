@@ -2,7 +2,7 @@ import styled from "styled-components";
 export default function Footer() {
   return (
     <>
-      <ContainerFooter>Footer</ContainerFooter>
+      <ContainerFooter>Footer </ContainerFooter>
     </>
   );
 }

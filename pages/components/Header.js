@@ -2,7 +2,7 @@ import styled from "styled-components";
 export default function Header() {
   return (
     <>
-      <ContainerHeader>header</ContainerHeader>
+      <ContainerHeader>Header</ContainerHeader>
     </>
   );
 }
